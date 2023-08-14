@@ -41,3 +41,13 @@ type FilterProps = {
   limit: number;
   model: string;
 };
+
+type OptionProps = {
+  title: string;
+  value: string;
+}
+
+type CustomerFilterProps = {
+  title: string;
+  options: OptionProps[];
+};
