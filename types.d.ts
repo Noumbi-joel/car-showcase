@@ -47,7 +47,12 @@ type OptionProps = {
   value: string;
 }
 
-type CustomerFilterProps = {
+type CustomFilterProps = {
   title: string;
   options: OptionProps[];
 };
+
+type ShowMoreProps = {
+  pageNumber: number;
+  isNext: boolean;
+}
